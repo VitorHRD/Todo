@@ -1,7 +1,7 @@
 
 <h1 align="center" >Todo<h1>
 <h2 align="center"> Projeto feito com React js para estudo </h2>
-<a align="center" href="https://chat-socketjs-express.herokuapp.com/grupo1/">🔗 Site</a>
+<h2 align="center"><a href="https://chat-socketjs-express.herokuapp.com/">🔗 Site</a></h2>
 <h1>🚀 Features</h1>
 <ul>
     <li> Adiciona os em tempo real sem precisar atualizar a página.
