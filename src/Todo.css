@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+*{
+    font-family: 'Sarala', sans-serif;
+}
+body{
+    background-color: #101c2c;
+}
+.container{
+    margin: auto;
+    max-width: 700px;
+}
+.done{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.281);
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    width: 100%;
+    padding : 15px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    border-radius: 15px;
+    
+    
+}
+.btn{
+    border:none;
+    background: none;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+
+}
+.addButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    border-radius: 50%;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
+.cardModal{
+    padding:20px;
+    background-color: white;
+
+}
+.Date{
+    margin:0;
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+.title{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.973);
+    font-weight: 500;
+}
+.inputAdd{
+    border:1.4px solid #48C5CE ;
+    padding: 10px 50px  10px 50px;
+    background-color: #f8f9fa;
+    border-radius: 5px 0 0 5px;
+}
+.inputBtn{
+    padding: 11.4px 15px 11.4px 15px;
+    background-color: #48C5CE;
+    opacity: 1;
+    color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0px ;
+    
+}
+.inputBtn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.cardModal{
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    font-weight: bolder;
+}
